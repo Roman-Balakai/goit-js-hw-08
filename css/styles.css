@@ -1,0 +1,54 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Montserrat", sans-serif;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+img {
+  display: block;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+body {
+  margin: 0;
+}
+.gallery {
+  padding: 24px 156px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.gallery-image {
+  object-fit: cover;
+  width: 360px;
+  height: 240px;
+  transition: transform 0.3s ease;
+}
+.gallery-image:hover {
+  transform: scale(1.03);
+}
+.gallery-link {
+  display: block;
+}
